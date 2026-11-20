@@ -3,8 +3,8 @@
 -- ==============================================================================
 
 -- Set leader key to space
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+--vim.g.mapleader = " "
+--qvim.g.maplocalleader = " "
 
 -- General quality of life
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Return to File Explorer" })
